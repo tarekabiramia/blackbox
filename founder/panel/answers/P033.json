@@ -1,0 +1,13 @@
+{
+  "id": "P033",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already pass a supermarket on my way home from work, so picking up a bag in the village is not saving me a trip. I would be paying $2 a bag to let someone I do not know choose my tomatoes.",
+  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato, and I find out only when I am home with cash already paid? Nothing says who fixes it.",
+  "would_change_my_mind": "A neighbour I know running it, plus a promise in writing that they replace or refund anything wrong or bad at pickup, and I could check the bag and receipt before paying.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 3.5
+}

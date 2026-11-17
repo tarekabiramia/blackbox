@@ -1,0 +1,13 @@
+{
+  "id": "P035",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already get my bread and labneh at the dekkene most days, and on Saturday I drive to Jbeil for the big shop anyway. Paying $2 a bag to a stranger on top of the till price, when I cannot see the till myself, is not worth it for me.",
+  "objection": "How do I know they really paid the cheap price and didn't add a markup? I only have their word for what was at the till.",
+  "would_change_my_mind": "A photo of the till receipt in the bag with every order, and a first bag with no fee so I can check it against Spinneys prices myself.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P031",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I get my bread and labneh at the dekkene almost every day, a few steps away, and sometimes on the tab. I'm not going to order before 2 and then go out again at 6 to collect a bag when I can just walk down and pick things myself.",
+  "objection": "What if they bring the wrong item, the wrong size, or a rotten tomato? I can't see what I'm getting, and there's no delivery, so I still have to go out to collect it.",
+  "would_change_my_mind": "Home delivery, and a promise that anything wrong or spoiled is replaced or refunded on the spot when I collect it.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

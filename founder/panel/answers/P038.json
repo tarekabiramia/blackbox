@@ -1,0 +1,13 @@
+{
+  "id": "P038",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "My son or a neighbour already brings my shopping, so I don't need another way. I'm not going to pay a stranger to shop for me, and I'm not good with WhatsApp voice notes.",
+  "objection": "Why pay anyone when family brings it for free? And I'd have to walk to a pickup point in the evening and carry the bag myself, with cash I don't have much of.",
+  "would_change_my_mind": "Delivery to my door, free, and someone I know in the village taking my order by phone or in person.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1,
+  "price_too_expensive": 2
+}

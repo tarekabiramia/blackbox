@@ -1,0 +1,13 @@
+{
+  "id": "P039",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I choose my own vegetables, fruit and meat, and I'm not handing that to a stranger with a list. I already go down to Jbeil on Saturday for the big shop, so a $2 fee on top of my groceries buys me nothing I need.",
+  "objection": "Someone else picks my fresh food and I pay an extra $2 every bag for it. With money this tight I can't risk paying for tomatoes or meat I would have rejected at the shop.",
+  "would_change_my_mind": "A way to send back or not pay for anything I don't like when I open the bag, and a fee of about $1 or less.",
+  "price_too_cheap": 0.2,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

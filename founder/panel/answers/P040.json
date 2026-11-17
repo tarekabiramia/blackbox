@@ -1,0 +1,13 @@
+{
+  "id": "P040",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I already shop on my way home from work, and with no car at home I can't easily get to a pickup point either. Sending a list before 2 p.m. every day is a hassle, and I can't tell what I'd actually pay for the items.",
+  "objection": "I have to plan my list before 2 p.m. while I'm at work, then collect it between 6 and 8, and I have no car. For $2 a bag I'm not sure I save anything on a small shop.",
+  "would_change_my_mind": "A later order cutoff, such as 5 p.m., and a pickup point I can walk to, plus proof that the baskets come out clearly cheaper than my usual shop.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P034",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I'm five minutes from Tawfeer and Spinneys, and I already follow their offers and stock up when there's a deal. Why would I pay $2 a bag for someone else to shop when I enjoy getting the best price myself?",
+  "objection": "I can't see the offers or pick the deals myself, and I'd still have to drive to a pickup point at 6 to 8 in the evening. Two dollars a bag adds up on my budget and I'd trust my own eyes on the price over a stranger's.",
+  "would_change_my_mind": "If I could see the actual till prices and carton deals before ordering, and the pickup point was a short walk from my house, and the fee was waived or about a dollar.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2
+}

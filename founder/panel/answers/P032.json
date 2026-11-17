@@ -1,0 +1,13 @@
+{
+  "id": "P032",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already drive to Tawfeer once a week and fill the boot, so I'm not paying someone to shop for me. I like choosing my own tomatoes and checking prices on the shelf myself.",
+  "objection": "I can't see what I'd be getting that I don't already get by going myself. I'd be trusting a stranger to pick my produce and I only see the receipt afterwards.",
+  "would_change_my_mind": "Proof, on my own list over a few weeks, that the total comes out clearly cheaper than my weekly shop even after the fee, with a way to send back anything that is bad.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 5
+}
