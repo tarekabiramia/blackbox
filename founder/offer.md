@@ -83,3 +83,19 @@ Method: the Offers lens in `.claude/skills/founder-board/lenses.md`, a summary o
 ## 5. Re-test
 
 The new offer is in `pitch.md` (the old one is `pitch-v1.md`; the v1 panel is kept in `panel-v1/`). It was re-run on `/founder-consumer --quick` (20 buyers, same customer, same seed 2026). Result: see section 6, added after the run.
+
+## 6. Re-test result (20 simulated buyers, same customer profile, seed 2026)
+
+| | v1 pitch (50 buyers, `panel-v1/`) | v2 offer (20 buyers, `panel/`) |
+| --- | ---: | ---: |
+| **Buy rate** | **6%** (3 of 50) | **25%** (5 of 20) |
+| Car-less households | 3 of 10 | 3 of 4 |
+| Everyone else | 0 of 40 | 2 of 16 |
+| Passes for "trust" | 9 of 47 (19%) | 1 of 15 (7%) |
+| Passes for "price" | 4 of 47 | 1 of 15 |
+| Passes for "habit" (already shops weekly / dekkene tab) | 12 of 47 (26%) | 7 of 15 (47%) |
+| Fee indifference price (IPP) | $1.01 (fee $2.00 shown) | **$1.25** (fee $1.25 shown) |
+
+**What moved:** the receipt + slip, the first bag with no fee and the village-shop pickup almost removed the trust and price objections. The two non-car buyers bought for exactly those reasons: "The first bag is free and the fresh things stay mine to choose, so I would try it for the cartons of oil, detergent and diapers" (P011); "The first bag has no fee and I can hand back anything wrong, so I'll try it once or twice" (P017). **What didn't move:** habit. Households that drive to Jbeil weekly still pass, and the offer should not chase them. **What's still asked for:** month-end payment from the first bag, and proof on the first slips that the saving beats the fee (P018: "she would stop after the first bag if the slips showed the saving was smaller than the fee").
+
+**Read it honestly:** 20 buyers, every segment thin, simulated and agreeable. 25% is an upper bound that sits exactly on the plan's default bar. The real test is the 4-week pilot in `launch.md`. One design rule follows from P018: **the first slip must show a saving larger than the fee**, or the household is lost. That depends on the Tawfeer tier gap, the same number the CFO flags.

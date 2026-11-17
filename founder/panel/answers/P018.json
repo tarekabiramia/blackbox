@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "convenience",
+  "reason": "We have no car, so getting to the Jbeil supermarkets is a hassle and a cost. The first bag is free and pickup is at the mini-market in my village, so I would try it for the heavy staples like oil, rice, detergent and milk. I would still go buy my vegetables and meat myself.",
+  "objection": "I want to choose my own vegetables and meat, and they don't do that. I also don't know yet if half the bulk saving is more than the $1.25 a bag, so I would check the slip before I keep going.",
+  "would_change_my_mind": "If the slips showed the saving was usually smaller than the bag fee, I would stop after the first bag.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 1.75,
+  "price_too_expensive": 2.75
+}

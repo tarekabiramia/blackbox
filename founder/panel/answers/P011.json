@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": true,
+  "purchases_first_month": 3,
+  "reason_code": "price",
+  "reason": "The first bag is free and the fresh things stay mine to choose, so I would try it for the cartons of oil, detergent and diapers I now pay the dekkene extra for. If the slip really shows I saved something, I keep going, but not for every little thing.",
+  "objection": "I buy a little every day, not twice a week with a list the night before. And I do not know this neighbour, so I want to see that the slip is honest and the total matches what I pay.",
+  "would_change_my_mind": "Someone from my own village or parish who already uses it tells me the slips and prices were right.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}
