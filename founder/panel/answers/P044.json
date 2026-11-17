@@ -1,0 +1,13 @@
+{
+  "id": "P044",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I choose my own vegetables, fruit and meat, I don't let anyone pick for me. And I already have my tab at the dekkene, so paying $2 extra on top of groceries makes no sense when every dollar counts.",
+  "objection": "A stranger picking my tomatoes and my meat, and then I pay a fee on top for it. I'd never know if they gave me the good ones.",
+  "would_change_my_mind": "If I could pick my own fresh produce and meat at pickup before paying, or if the fee were waived for me and the shopper was someone I know from the village.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2
+}

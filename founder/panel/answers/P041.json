@@ -1,0 +1,13 @@
+{
+  "id": "P041",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I want to pick my own tomatoes and my own meat, not hand a list to a stranger. And I'd still have to drive down to a pickup point, so I'm not saving much.",
+  "objection": "Someone else chooses my vegetables and meat, and I can't check them until I'm at pickup with the money already owed. If the produce is bad, what do I do?",
+  "would_change_my_mind": "Being able to reject items I don't like at pickup without paying for them, plus a first bag where the till receipt shows prices clearly lower than what I pay now.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 3.5
+}

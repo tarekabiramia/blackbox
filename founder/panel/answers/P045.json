@@ -1,0 +1,13 @@
+{
+  "id": "P045",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I want to choose my own vegetables, fruit and meat, and I don't trust anyone else to pick them. A stranger shopping my list is exactly what I avoid.",
+  "objection": "Someone else picks my tomatoes and my meat, and I can't check them before I pay. If it's bad I've already paid the till price plus the fee, in cash.",
+  "would_change_my_mind": "If I could send them only for dry goods, cartons and bulk items, and still pick my own fresh produce and meat, I might try it for those.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

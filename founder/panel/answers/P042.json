@@ -1,0 +1,13 @@
+{
+  "id": "P042",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already do my big shop once a week in Jbeil and I watch every dollar. I'd be handing my list to strangers and just trusting them about what they paid at the till.",
+  "objection": "How do I know they really paid the cheap price and didn't add a markup? A $2 fee on top of that adds up when money is this tight.",
+  "would_change_my_mind": "Seeing the actual supermarket receipt with every bag, from someone in my village I know and trust, and a free first bag to try.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

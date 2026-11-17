@@ -1,0 +1,13 @@
+{
+  "id": "P046",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I already follow the Tawfeer offers myself and stock up when there is a deal, so why pay $2 a bag on top? My children send money each month but every dollar still counts.",
+  "objection": "Another fee on top of my groceries. I can compare prices and buy the deals myself, and I would have to trust strangers to shop for me and then go out to a pickup point between 6 and 8 in the evening.",
+  "would_change_my_mind": "No fee, or a fee only when the carton and bulk savings on my list clearly beat what I pay at the till, shown on the receipt.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

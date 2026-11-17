@@ -1,0 +1,13 @@
+{
+  "id": "P050",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I'd still have to go and collect it, at their hour, not mine, and a 6 to 8 pm window doesn't fit when I'm out or cooking. I stock up on whatever offer Tawfeer posts that week, and I can't see that a list sent on WhatsApp gets me those same deals.",
+  "objection": "I'd still have to go and collect it at their hour, and I can't check that what you paid at the till is really the best price. $2 a bag is on top of that.",
+  "would_change_my_mind": "Home delivery or a pickup point a few steps from my door with a flexible hour, plus seeing the till receipt for each order so I know I'm paying the real price.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 5
+}

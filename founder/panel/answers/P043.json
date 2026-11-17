@@ -1,0 +1,13 @@
+{
+  "id": "P043",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I do my big shop in Jbeil on Saturday mornings already, and with no home delivery I would still have to go and collect it, at their hour, not mine. Paying $2 a bag for that does not make sense when money is tight.",
+  "objection": "I still have to go out and collect it between 6 and 8 in the evening, so I save no trip, and I pay a fee on top of what I already pay for my groceries.",
+  "would_change_my_mind": "Delivery to my door, or a pickup point right next to my house, with a proven saving on my weekly basket that is clearly more than the fee.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

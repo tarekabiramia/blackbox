@@ -1,0 +1,13 @@
+{
+  "id": "P047",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already do one big shop a week at Spinneys or Tawfeer and fill the boot, so a daily list on WhatsApp doesn't fit how I buy. I'd still have to go and collect it at their hour, not mine.",
+  "objection": "I finish work at 6 in Jounieh and the drive home eats into the 6 to 8 window, so I'd be rushing to a pickup point for a bag I could have bought myself on my weekly trip. Also I'd be trusting strangers to pick my brands and tell me the real till price.",
+  "would_change_my_mind": "Home delivery, or a pickup window that runs later, plus a receipt photo for every order so I can see the real prices.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 5
+}

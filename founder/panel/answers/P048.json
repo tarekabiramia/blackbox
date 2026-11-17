@@ -1,0 +1,13 @@
+{
+  "id": "P048",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I already follow the Tawfeer offers and drive down when there is a deal, so I stock up myself. Sending a list before 2 p.m. every time and then collecting between 6 and 8 does not fit how I shop.",
+  "objection": "Sending a list before 2 p.m. every time is a hassle, and I would not see the shelf price or the offer myself. Paying their till price plus $2 a bag, I have to trust that they really found the cheapest.",
+  "would_change_my_mind": "If they showed me, with a receipt, that my basket came out clearly cheaper than my own shop, and I could send the list later in the day.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}
