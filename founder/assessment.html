@@ -1,0 +1,402 @@
+<title>Village Basket Assessment</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with wide tables in their own scrollers; the receipt-style bag ledger is the only flourish. */
+:root {
+  --bg: #fbfaf6;
+  --surface: #ffffff;
+  --ink: #2a1c12;
+  --ink-2: #5b4f44;
+  --muted: #857a6e;
+  --rule: #e4dfd3;
+  --accent: #4e5a1e;
+  --accent-soft: #eaeedb;
+  --mark: #647f1c;
+  --warn-ink: #8f3420;
+  --warn-soft: #f6e4dc;
+  --paper: #fffdf7;
+  --display: "El Messiri", "IBM Plex Sans", system-ui, sans-serif;
+  --text: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --arabic: "IBM Plex Sans Arabic", "Noto Naskh Arabic", "Geeza Pro", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17140f; --surface: #1f1b15; --ink: #f1ebe0; --ink-2: #cbc1b2; --muted: #978c7d;
+    --rule: #352f26; --accent: #bccd74; --accent-soft: #2a2f19; --mark: #7a9a2a;
+    --warn-ink: #f0a08a; --warn-soft: #3a211a; --paper: #1b1813; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17140f; --surface: #1f1b15; --ink: #f1ebe0; --ink-2: #cbc1b2; --muted: #978c7d;
+  --rule: #352f26; --accent: #bccd74; --accent-soft: #2a2f19; --mark: #7a9a2a;
+  --warn-ink: #f0a08a; --warn-soft: #3a211a; --paper: #1b1813; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--text); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 40px 72px; display: grid; gap: 56px; }
+.col { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; font-weight: 600; }
+h1 { font-size: clamp(2.4rem, 6vw, 3.4rem); letter-spacing: -0.01em; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.15rem; color: var(--ink-2); }
+section { display: grid; gap: 20px; }
+.stack { display: grid; gap: 12px; }
+.note { color: var(--muted); font-size: 0.9rem; }
+code, .mono { font-family: var(--mono); font-size: 0.86em; }
+a { color: var(--accent); }
+a:focus-visible, summary:focus-visible, .hit:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ar { font-family: var(--arabic); }
+
+/* verdict */
+.verdict { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; display: grid; gap: 16px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+th, td { text-align: left; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+.pill { display: inline-block; font-family: var(--mono); font-size: 0.76rem; font-weight: 500; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.pill.no { background: var(--warn-soft); color: var(--warn-ink); }
+.pill.yes { background: var(--accent-soft); color: var(--accent); }
+.pill::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 1px; }
+.base td { font-weight: 600; }
+
+/* findings */
+.findings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 32px; }
+.finding { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.finding p { color: var(--ink-2); }
+@media (max-width: 640px) { .findings { grid-template-columns: 1fr; } }
+
+/* compare table */
+.compare td:first-child { color: var(--muted); font-family: var(--mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+.compare td:nth-child(2) { color: var(--ink-2); }
+
+/* tiles */
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.tile { border-top: 2px solid var(--ink); padding-top: 12px; display: grid; gap: 4px; min-width: 0; }
+.tile .big { font-family: var(--display); font-size: 2.1rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tile .big .from { color: var(--muted); font-size: 1.35rem; }
+.tile p { color: var(--ink-2); font-size: 0.92rem; }
+@media (max-width: 640px) { .tiles { grid-template-columns: 1fr; } }
+
+/* charts */
+figure { margin: 0; display: grid; gap: 10px; }
+figcaption { font-weight: 600; }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: var(--text); font-size: 13px; fill: var(--ink-2); }
+.chart .axis { stroke: var(--rule); stroke-width: 1; }
+.chart .zero { stroke: var(--muted); stroke-width: 1; }
+.chart .bar { fill: var(--mark); pointer-events: none; }
+.chart svg text { pointer-events: none; }
+.hbars { display: grid; gap: 8px; }
+.hrow { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 12px; align-items: center; border-radius: 4px; }
+.hrow:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hrow .lab { font-size: 0.9rem; color: var(--ink-2); line-height: 1.3; min-width: 0; }
+.hrow .track { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.hrow .fill { height: 14px; background: var(--mark); border-radius: 0 3px 3px 0; flex: none; }
+.hrow .val { font-size: 0.85rem; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.hrow:hover .fill, .hrow:focus .fill { opacity: 0.8; }
+@media (max-width: 520px) { .hrow { grid-template-columns: 1fr; gap: 4px; } }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .hit:hover + .bar, .chart .hit:focus + .bar { opacity: 0.8; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 10px; font-size: 0.85rem; box-shadow: 0 4px 14px rgba(0,0,0,0.12); white-space: nowrap; transform: translate(-50%, -110%); font-variant-numeric: tabular-nums; }
+details { font-size: 0.9rem; }
+summary { cursor: pointer; color: var(--accent); font-family: var(--mono); font-size: 0.8rem; }
+details table { margin-top: 8px; }
+
+/* receipt */
+.money { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 32px; align-items: start; }
+@media (max-width: 720px) { .money { grid-template-columns: 1fr; } }
+.receipt { background: var(--paper); border: 1px solid var(--rule); font-family: var(--mono); font-size: 0.82rem; padding: 18px 18px 14px; position: relative; }
+.receipt::after { content: ""; position: absolute; left: -1px; right: -1px; bottom: -9px; height: 9px;
+  background: linear-gradient(-45deg, transparent 6px, var(--paper) 0) 0 0 / 12px 9px repeat-x, linear-gradient(45deg, transparent 6px, var(--paper) 0) 0 0 / 12px 9px repeat-x; }
+.receipt .head { text-align: center; display: grid; gap: 2px; padding-bottom: 10px; border-bottom: 1px dashed var(--muted); margin-bottom: 8px; }
+.receipt .head strong { font-family: var(--display); font-size: 1.05rem; font-weight: 600; }
+.receipt .ar { font-size: 0.95rem; }
+.line { display: flex; gap: 8px; justify-content: space-between; padding: 2px 0; }
+.line span:first-child { min-width: 0; }
+.line span:last-child { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.line.sub { color: var(--ink-2); }
+.line.total { border-top: 1px dashed var(--muted); margin-top: 6px; padding-top: 6px; font-weight: 500; }
+.line.grand { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); margin: 8px 0 4px; padding: 6px 0; font-weight: 500; font-size: 0.95rem; }
+.receipt .foot { color: var(--muted); padding-top: 8px; display: grid; gap: 2px; }
+
+/* questions */
+.qa { display: grid; gap: 22px; }
+.qa div { display: grid; gap: 6px; }
+.qa p { color: var(--ink-2); }
+
+/* timeline */
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.timeline li { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.timeline li:last-child { border-bottom: 0; }
+.timeline .when { font-family: var(--mono); font-size: 0.82rem; color: var(--muted); padding-top: 2px; }
+.timeline .gate .what { font-weight: 600; }
+@media (max-width: 520px) { .timeline li { grid-template-columns: 1fr; gap: 2px; } }
+.thisweek { background: var(--accent-soft); border-radius: 10px; padding: 20px; display: grid; gap: 8px; }
+.thisweek p { color: var(--ink); }
+.files { columns: 2; column-gap: 32px; font-family: var(--mono); font-size: 0.8rem; color: var(--ink-2); padding-left: 0; list-style: none; margin: 0; }
+.files li { break-inside: avoid; padding: 2px 0; }
+@media (max-width: 560px) { .files { columns: 1; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="stack col">
+    <span class="eyebrow">Founder-pack assessment · Amchit &amp; the Jbeil hills · 17 Nov 2026</span>
+    <h1>Village Basket</h1>
+    <p class="lede">Your pooled grocery run, tested by a three-lens board, four research agents, 70 simulated buyers and the founder pack's CFO and plan tools. The idea as pitched does not work. A narrower version works, just, and it opens a bigger door with Tawfeer.</p>
+    <p class="note">I read "Amish" as Amchit (عمشيت), Jbeil district. Every figure traces to a file in <code>founder/</code> on the repo branch <code>ccr-de0297b5-lrexly</code>.</p>
+  </header>
+
+  <section aria-labelledby="v-h">
+    <h2 id="v-h">The verdict</h2>
+    <div class="verdict">
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Scenario</th><th>Verdict</th><th class="num">Year 1</th><th class="num">Break-even</th></tr></thead>
+          <tbody>
+            <tr><td>As pitched: daily runs, $2 fee, 5–6 stores compared</td><td><span class="pill no">Not yet</span></td><td class="num">−$7,498</td><td class="num">30 bags a run</td></tr>
+            <tr class="base"><td>Redesigned, you drive the runs (base case)</td><td><span class="pill yes">Profitable</span></td><td class="num">$769</td><td class="num">12 bags a run</td></tr>
+            <tr><td>Redesigned, with a paid driver</td><td><span class="pill no">Not yet</span></td><td class="num">−$1,607</td><td class="num">25 bags a run</td></tr>
+            <tr><td>Redesigned, Tawfeer's lower price tiers never reached</td><td><span class="pill no">Not yet</span></td><td class="num">−$1,122</td><td class="num">34 bags a run</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Verdicts are computed by the pack's <code>compile.py</code>, not written by hand. A car carries about 20 bags. The base case passes all four checks with no room to spare: each bag leaves $1.69, year 1 is positive, break-even fits in the car, and 25% of simulated buyers buy (the bar is 25%).</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Board lens</th><th class="num">Score</th><th>Vote</th><th>The condition that matters most</th></tr></thead>
+        <tbody>
+          <tr><td>Offers</td><td class="num">4/10</td><td>Fund if</td><td>Prove the saving on real baskets after driver, fuel and stops</td></tr>
+          <tr><td>Monopoly</td><td class="num">4/10</td><td>Fund if</td><td>Supply terms that don't rest on someone else's promotions; licensing only after two villages</td></tr>
+          <tr><td>Product</td><td class="num">5/10</td><td>Fund if</td><td>One store, a substitution rule and a hand-run pilot before any code</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="f-h">
+    <h2 id="f-h">Six findings that changed the plan</h2>
+    <div class="findings">
+      <div class="finding"><h3>"Tawfir" is Tawfeer MAX Jbeil</h3><p>It opened on 22 May 2026 in Qartaboun, 5–8 km from Amchit, with permanent piece, quantity and carton prices. Carton prices are open to small businesses with no membership, so ask Tawfeer for service, not discounts. The tier thresholds are published nowhere.</p></div>
+      <div class="finding"><h3>Amchit is the wrong first market</h3><p>Its centre is 5–6 minutes from Spinneys, Tawfeer MAX and Le Charcutier. The pain is up the hill in Bejjeh, Ghalboun, Aabaydat and Kfoun, 20–25 minutes away, where a trip costs about $6.90 in fuel and time, against $2.60 from Amchit.</p></div>
+      <div class="finding"><h3>Comparing 5–6 stores saves 3–6%</h3><p>On 12 staples, the cheapest single store came to $77.04 and the cheapest store for each item to $74.42. Tawfeer's own bundles alone came to $74.77. Every extra store adds a stop and a split bag.</p></div>
+      <div class="finding"><h3>Scraping is the wrong data source</h3><p>Spinneys' terms allow only personal, non-commercial viewing, and Carrefour blocks automated access. Your own till receipts, Tawfeer's weekly price list, or a data licence from SoukCompare (daily prices for five nearby chains) do the job legally.</p></div>
+      <div class="finding"><h3>Only car-less households buy</h3><p>6 of the 8 simulated buyers across both panels had no car at home. They are buying access, not a discount: on the base bag they pay about $0.15 more than Tawfeer's shelf price, in exchange for the trip they don't make.</p></div>
+      <div class="finding"><h3>Nobody pools village orders here</h3><p>No one in the Jbeil district runs anything like this. The fastest copiers are the village mini-market and Tawfeer itself. So make the mini-market your pickup host, and Tawfeer your partner.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="c-h">
+    <h2 id="c-h">Your idea, and the version that works</h2>
+    <div class="scroll">
+      <table class="compare">
+        <thead><tr><th></th><th>Your pitch</th><th>Redesigned (offer v2)</th></tr></thead>
+        <tbody>
+          <tr><td>Runs</td><td>Daily, list by 2 p.m.</td><td>Tuesday and Friday; list by 9 p.m. the night before, or "same as last time"</td></tr>
+          <tr><td>Who</td><td>Amchit and neighbours</td><td>Hill villages, plus car-less households in Amchit</td></tr>
+          <tr><td>Stores</td><td>5–6, AI comparison and scraping</td><td>Tawfeer MAX Jbeil only; Spinneys Jbeil for out-of-stocks</td></tr>
+          <tr><td>The bag</td><td>Everything</td><td>Staples: packaged food, dairy, cleaning, baby. No produce or meat</td></tr>
+          <tr><td>Price</td><td>Undecided ($2 fee tested)</td><td>$1.25 a bag plus half the bulk saving; doorstep +$1.50; first bag free of fee</td></tr>
+          <tr><td>Pickup</td><td>A central point</td><td>The village's own mini-market ($0.25 a bag), 5–9 p.m. or the next morning</td></tr>
+          <tr><td>Trust</td><td>Not addressed</td><td>A copy of the till receipt and a line-by-line slip in every bag; hand back anything wrong and don't pay for it</td></tr>
+          <tr><td>Software</td><td>Built first</td><td>Built after two hand-run test runs</td></tr>
+          <tr><td>Long term</td><td>License it to other villages</td><td>Become Tawfeer's village channel; grow a buying network, not a licence</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="p-h">
+    <h2 id="p-h">What the simulated buyers said</h2>
+    <div class="tiles">
+      <div class="tile"><span class="eyebrow">Buy rate</span><span class="big"><span class="from">6% →</span> 25%</span><p>Original pitch, 3 of 50. Redesigned offer, 5 of 20.</p></div>
+      <div class="tile"><span class="eyebrow">Car-less households</span><span class="big"><span class="from">3/10 →</span> 3/4</span><p>Everyone else: 0 of 40, then 2 of 16.</p></div>
+      <div class="tile"><span class="eyebrow">Fee buyers find fair</span><span class="big">$1.25</span><p>Acceptable range $0.50–$2.49. $2 is where half start to call it expensive.</p></div>
+    </div>
+    <figure>
+      <figcaption>What the 50 buyers of the original pitch objected to</figcaption>
+      <div class="chart" id="obj"></div>
+      <details><summary>Show as a table</summary><div class="scroll"><table id="obj-t"><thead><tr><th>Objection</th><th class="num">Buyers mentioning it (of 50)</th></tr></thead><tbody></tbody></table></div></details>
+    </figure>
+    <p class="note">Simulated buyers lean agreeable, so read 25% as a ceiling, not a forecast. The receipt, the free first bag and pickup at the village shop almost removed the trust and price objections. Habit did not move: households that drive to Jbeil every week still pass, and the offer shouldn't chase them.</p>
+  </section>
+
+  <section aria-labelledby="m-h">
+    <h2 id="m-h">The money</h2>
+    <div class="money">
+      <div class="receipt" aria-label="One pickup bag, base case">
+        <div class="head"><strong>One pickup bag</strong><span>base case · twice-weekly run</span><span class="ar" lang="ar" dir="rtl">الفاتورة بالكيس</span></div>
+        <div class="line"><span>Fee</span><span>$1.25</span></div>
+        <div class="line"><span>Half the bulk saving (est.)</span><span>$1.10</span></div>
+        <div class="line"><span>Doorstep fees, averaged</span><span>$0.45</span></div>
+        <div class="line total"><span>Revenue per bag</span><span>$2.80</span></div>
+        <div class="line sub"><span>Bags, labels, receipt copy</span><span>−$0.15</span></div>
+        <div class="line sub"><span>Host shop commission</span><span>−$0.25</span></div>
+        <div class="line sub"><span>Payments, cash shortfalls</span><span>−$0.33</span></div>
+        <div class="line sub"><span>Refused or damaged items</span><span>−$0.28</span></div>
+        <div class="line sub"><span>Doorstep fuel and time</span><span>−$0.10</span></div>
+        <div class="line grand"><span>Each bag leaves</span><span>$1.69</span></div>
+        <div class="foot"><span>Fixed: $178 a month</span><span>Break-even: 12 bags a run, 9 runs a month</span><span>Plan: 20 bags a run (~60 households)</span></div>
+      </div>
+      <div class="stack" style="min-width:0">
+        <figure>
+          <figcaption>Operating profit by month, year 1 (you drive)</figcaption>
+          <div class="chart" id="prof"></div>
+          <details><summary>Show as a table</summary><div class="scroll"><table id="prof-t"><thead><tr><th>Month</th><th class="num">Bags a run</th><th class="num">Profit</th></tr></thead><tbody></tbody></table></div></details>
+        </figure>
+        <p class="note">Year 1 totals $769. At plan that is about $126 a month for roughly 22 hours a week, around $1.30 an hour.</p>
+      </div>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>What if</th><th class="num">Year 1</th><th class="num">Break-even</th></tr></thead>
+        <tbody>
+          <tr><td>Fee $1.50 instead of $1.25</td><td class="num">$1,199</td><td class="num">11</td></tr>
+          <tr><td>Fee $2.00</td><td class="num">$2,058</td><td class="num">9</td></tr>
+          <tr><td>Host commission $0.50 instead of $0.25</td><td class="num">$339</td><td class="num">14</td></tr>
+          <tr><td>20% fewer bags</td><td class="num">$188</td><td class="num">12</td></tr>
+          <tr><td>40% fewer bags</td><td class="num">−$393</td><td class="num">12</td></tr>
+          <tr><td>A paid half-day driver</td><td class="num">−$1,607</td><td class="num">25</td></tr>
+          <tr><td>Pooled orders never reach the lower tiers</td><td class="num">−$1,122</td><td class="num">34</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>Cash:</strong> about $3,100 in hand at the low point. Only $775 is spent and gone; the other $2,200 is a float that pays the till before households settle each week, and it comes back. Asking households to pay by Whish when they confirm would shrink the float to almost nothing.</p>
+  </section>
+
+  <section aria-labelledby="q-h">
+    <h2 id="q-h">Your questions, answered</h2>
+    <div class="qa col">
+      <div><h3>Subscription, or a percentage of the invoice?</h3><p>Neither, to start. Charge a visible flat fee per bag ($1.25, and test $1.50), plus half of the bulk saving, shown on every slip. A percentage punishes the families who buy most and reads like a hidden markup. A subscription only works once households order every week, so test a ~$4-a-month club after three months of data.</p></div>
+      <div><h3>The AI agent?</h3><p>Keep AI where it saves your time. It can read messy WhatsApp lists and voice notes in Lebanese Arabic, Arabizi and French (about $0.0004–$0.008 an order), and turn receipt photos into your own price history. Drop the scraping agent: it gains 3–6%, carries terms-of-use risk and adds stops. Voice notes still need a read-back, since speech-to-text gets about one word in four wrong in Lebanese Arabic.</p></div>
+      <div><h3>The dashboard and driver view?</h3><p>Yes, after the two hand-run test runs. The design is in <code>product-tech.md</code>: a Postgres data model with a tenant ID from day one, an offline driver app, and receipts as the price database. Running costs are about $13–$49 a month.</p></div>
+      <div><h3>Selling or renting the software to other villages?</h3><p>Not yet. A village run earns its operator roughly $100–$130 a month, while software for micro-operators costs $50–$350 a month and loses about 4% of its customers every month. They can't pay what supporting them would cost you. The better route is to run two neighbouring villages yourself, then offer the channel to a retailer (Tawfeer has 41 branches and a 500-store target), or let new villages buy through your one consolidated account.</p></div>
+      <div><h3>Approaching Tawfeer?</h3><p>Go as a channel, not a discount hunter. Ask for the tier thresholds in writing, an invoice account, pre-picking of an order sent by 08:00, weekly settlement, and permission to print their shelf prices on your slips. Offer an 8-week, 4-village pilot with numbers every two weeks. The script, with an opening in Lebanese Arabic, is in <code>tawfeer-pitch.md</code>.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-h">
+    <h2 id="t-h">The next eight weeks</h2>
+    <ol class="timeline">
+      <li><span class="when">by Sat 21 Nov</span><span class="what">Photograph the piece, quantity and carton tags for 40 staples at Tawfeer MAX Jbeil. Call 1626 for a meeting. Count car-less households with each mukhtar. Visit 4–6 village mini-markets.</span></li>
+      <li><span class="when">week of 24 Nov</span><span class="what">Tawfeer meeting. Accountant: are you a buying agent or a reseller (it decides VAT)? Sign two host shops.</span></li>
+      <li><span class="when">week of 1 Dec</span><span class="what">Business WhatsApp number, a 40-item catalogue, a slip template. Recruit 8–10 test households.</span></li>
+      <li><span class="when">Fri 11 &amp; Tue 15 Dec</span><span class="what">Two test runs by hand: at least 10 bags, no wrong bags, and a slip saving that at least covers the fee.</span></li>
+      <li class="gate"><span class="when">Fri 18 Dec</span><span class="what">Go or no-go. Go only if at least a quarter of a typical bag reaches the lower tiers at a 6%+ gap, and the runs were clean.</span></li>
+      <li><span class="when">22 Dec – 3 Jan</span><span class="what">Holidays: no runs. Founding-household sign-ups; start building the dashboard.</span></li>
+      <li><span class="when">Fri 8 Jan 2027</span><span class="what">Soft open for founding households.</span></li>
+      <li class="gate"><span class="when">Tue 12 Jan 2027</span><span class="what">First public run.</span></li>
+    </ol>
+    <div class="thisweek">
+      <span class="eyebrow">The one thing to do this week</span>
+      <p>By Saturday 21 November, photograph the three price tiers for the 40 staples villagers buy most at Tawfeer MAX Jbeil, and ask staff what quantity triggers each tier. Half of every bag's revenue rests on that one number.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="r-h">
+    <h2 id="r-h">In the repo</h2>
+    <p class="note">The 11 founder skills are installed in <code>.claude/skills/</code>. Recommended name: Sallet el-Jiran, <span class="ar" lang="ar">سلّة الجيران</span> ("the neighbours' basket"); trademark and domain checks are still to run (<code>brand.md</code>).</p>
+    <ul class="files">
+      <li>founder/summary.md</li><li>founder/business-plan.md</li><li>founder/one-pager.md</li><li>founder/tawfeer-pitch.md</li>
+      <li>founder/board.md · board/</li><li>founder/competitors.md · .csv</li><li>founder/panel/ · panel-v1/</li><li>founder/pricing.md</li>
+      <li>founder/offer.md · pitch.md</li><li>founder/cfo.md · numbers.json</li><li>founder/marketing.md</li><li>founder/brand.md</li>
+      <li>founder/ops.md</li><li>founder/launch.md</li><li>founder/product-tech.md</li><li>founder/research/</li>
+    </ul>
+    <p class="note">The buyers are simulated, and every number is a projection to confirm with real households and real quotes. Not financial, legal or tax advice.</p>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  var NS = "http://www.w3.org/2000/svg";
+  function el(name, attrs, parent) {
+    var n = document.createElementNS(NS, name);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+  function money(v) { return (v < 0 ? "−$" : "$") + Math.abs(v).toLocaleString("en-US"); }
+  function tooltip(host) {
+    var t = document.createElement("div"); t.className = "tip"; t.hidden = true; host.appendChild(t);
+    return {
+      show: function (html, x, y) { t.innerHTML = html; t.style.left = x + "px"; t.style.top = y + "px"; t.hidden = false; },
+      hide: function () { t.hidden = true; }
+    };
+  }
+  function place(host, svg, vx, vy) {
+    var r = svg.getBoundingClientRect(), h = host.getBoundingClientRect();
+    var vb = svg.viewBox.baseVal;
+    return [ (vx / vb.width) * r.width + (r.left - h.left), (vy / vb.height) * r.height + (r.top - h.top) ];
+  }
+
+  // Objections: horizontal bars, one series
+  var obj = [
+    ["Wants the till receipt, fears a markup", 40], ["The fee itself", 39], ["Pickup at their hour", 38],
+    ["Doesn't know who runs it", 36], ["Would lose the mini-market tab", 24], ["Wants home delivery", 15],
+    ["Wants to pick own produce and meat", 15], ["List deadline is a hassle", 14], ["Wrong or spoiled items", 10]
+  ];
+  (function () {
+    var host = document.getElementById("obj"), tip = tooltip(host);
+    var list = document.createElement("div"); list.className = "hbars"; host.appendChild(list);
+    obj.forEach(function (d) {
+      var row = document.createElement("div"); row.className = "hrow"; row.tabIndex = 0;
+      row.setAttribute("aria-label", d[0] + ": " + d[1] + " of 50");
+      row.innerHTML = '<span class="lab">' + d[0] + '</span><span class="track"><span class="fill" style="width:calc((100% - 2.5rem) * ' + (d[1] / 50) + ')"></span><span class="val">' + d[1] + '</span></span>';
+      list.appendChild(row);
+      function on() {
+        var f = row.querySelector(".fill").getBoundingClientRect(), h = host.getBoundingClientRect();
+        tip.show("<strong>" + d[1] + " of 50</strong> buyers · " + Math.round(d[1] * 2) + "%", f.left - h.left + f.width / 2, f.top - h.top - 2);
+      }
+      row.addEventListener("mouseenter", on); row.addEventListener("focus", on);
+      row.addEventListener("mouseleave", tip.hide); row.addEventListener("blur", tip.hide);
+    });
+    var tb = document.querySelector("#obj-t tbody");
+    obj.forEach(function (d) { var tr = document.createElement("tr"); tr.innerHTML = "<td>" + d[0] + "</td><td class='num'>" + d[1] + "</td>"; tb.appendChild(tr); });
+  })();
+
+  // Monthly profit: vertical bars around a zero line, one series
+  var prof = [[1,6,-87],[2,9,-41],[3,12,5],[4,14,35],[5,16,65],[6,17,81],[7,18,96],[8,19,111],[9,20,126],[10,20,126],[11,20,126],[12,20,126]];
+  (function () {
+    var host = document.getElementById("prof"), W = 440, H = 220, padL = 46, padR = 8, padT = 14, padB = 30;
+    var max = 150, min = -100, ih = H - padT - padB, iw = W - padL - padR;
+    var y = function (v) { return padT + (max - v) / (max - min) * ih; };
+    var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Monthly operating profit in year 1, from minus 87 dollars in month 1 to 126 dollars from month 9" }, host);
+    var tip = tooltip(host);
+    [-100, -50, 0, 50, 100, 150].forEach(function (t) {
+      el("line", { class: t === 0 ? "zero" : "axis", x1: padL, x2: W - padR, y1: y(t), y2: y(t), "stroke-dasharray": t === 0 ? "" : "2 4" }, svg);
+      var lt = el("text", { x: padL - 6, y: y(t) + 4, "text-anchor": "end" }, svg); lt.textContent = money(t);
+    });
+    var bw = iw / prof.length, gap = 6;
+    prof.forEach(function (d, i) {
+      var cx = padL + i * bw, v = d[2], top = v >= 0 ? y(v) : y(0), h = Math.max(2, Math.abs(y(v) - y(0)));
+      var hit = el("rect", { class: "hit", x: cx, y: padT, width: bw, height: ih, tabindex: 0, "aria-label": "Month " + d[0] + ": " + money(v) + ", " + d[1] + " bags a run" }, svg);
+      el("rect", { class: "bar", x: cx + gap / 2, y: top, width: bw - gap, height: h, rx: 3 }, svg);
+      var ml = el("text", { x: cx + bw / 2, y: H - 10, "text-anchor": "middle" }, svg); ml.textContent = d[0];
+      if (v < 0 || i === prof.length - 1) {
+        var vl = el("text", { x: cx + bw / 2, y: v < 0 ? y(v) + 14 : y(v) - 6, "text-anchor": "middle" }, svg); vl.textContent = money(v);
+      }
+      function on() { var p = place(host, svg, cx + bw / 2, Math.min(top, y(0)) - 4); tip.show("<strong>Month " + d[0] + "</strong> · " + money(v) + " · " + d[1] + " bags a run", p[0], p[1]); }
+      hit.addEventListener("mouseenter", on); hit.addEventListener("focus", on);
+      hit.addEventListener("mouseleave", tip.hide); hit.addEventListener("blur", tip.hide);
+    });
+    var tb = document.querySelector("#prof-t tbody");
+    prof.forEach(function (d) { var tr = document.createElement("tr"); tr.innerHTML = "<td>" + d[0] + "</td><td class='num'>" + d[1] + "</td><td class='num'>" + money(d[2]) + "</td>"; tb.appendChild(tr); });
+  })();
+})();
+</script>
