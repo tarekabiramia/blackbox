@@ -2,7 +2,7 @@
 
 ## 1. The price
 
-**$1.25 service fee per bag, plus half of the measured bulk saving. Doorstep drop +$1.50. First bag, no fee.**
+**$1.25 service fee per bag, plus half of the measured bulk saving. Doorstep drop +$1.50. First bag, no fee.** After the `ops.md` cost corrections, $1.25 leaves only $769 for year 1, so the CFO's preferred price is $1.50 if the test in §4 shows conversion holds.
 
 Why this, and not the pitched $2:
 
@@ -25,14 +25,14 @@ Why this, and not the pitched $2:
 
   | fee | revenue / bag | break-even (bags a run) | year 1 operating profit |
   | ---: | ---: | ---: | ---: |
-  | $1.00 | $2.55 | 10 | $987 |
-  | **$1.25** | **$2.80** | **9** | **$1,417** |
-  | $1.50 | $3.05 | 8 | $1,847 |
-  | $2.00 | $3.55 | 6 | $2,706, but at the panel's median "getting expensive" point |
+  | $1.00 | $2.55 | 14 | $339 |
+  | **$1.25** | **$2.80** | **12** | **$769** |
+  | $1.50 | $3.05 | 11 | $1,199 |
+  | $2.00 | $3.55 | 9 | $2,058, but at the panel's median "getting expensive" point |
 
-  The fee alone can never carry it. If no item ever reaches a tier price, the bag earns $1.70 and break-even is 24 bags a run, above what a car carries. **The savings split is half the revenue, so the price promise and the margin are the same number.** That number has to be measured at Tawfeer MAX.
+  The fee alone can never carry it. If no item ever reaches a tier price, the bag earns $1.70 and break-even is 34 bags a run, above what a car carries. **The savings split is half the revenue, so the price promise and the margin are the same number.** That number has to be measured at Tawfeer MAX.
 
-**The savings split is visible.** Every bag comes with the till receipt and a slip with three columns: shelf price, what we paid, what you paid. The customer pays the single-item shelf price minus half the bulk saving. This answers the panel's #1 objection, 40 of 50 asking for the receipt or proof of no markup. It is not a hidden markup, because the slip shows it.
+**The savings split is visible.** Every bag comes with a slip with three columns (shelf price, what we paid, what you paid), plus a copy of the run's pooled till receipt with the household's lines marked. The customer pays the single-item shelf price minus half the bulk saving. This answers the panel's #1 objection, 40 of 50 asking for the receipt or proof of no markup. It is not a hidden markup, because the slip shows it.
 
 ## 2. The ladder
 
@@ -52,7 +52,7 @@ Don't launch the club on day one. Memberships only work once the weekly habit ex
 
 ## 4. What to test with real buyers
 
-1. **$1.25 vs $1.50**, one per village cluster (e.g. Kfoun + Ghalboun at $1.25, Bejjeh + Aabaydat at $1.50) for 4 weeks. Measure first-bag → second-bag conversion. The CFO shows $1.50 adds ~$430 to year 1 if conversion holds.
+1. **$1.25 vs $1.50**, one per village cluster (e.g. Kfoun + Ghalboun at $1.25, Bejjeh + Aabaydat at $1.50) for 4 weeks. Measure first-bag → second-bag conversion. The CFO shows $1.50 adds ~$430 to year 1 if conversion holds ($769 → $1,199).
 2. **Flat fee vs 3% of bag value** (min $1, max $2.50) on half the founding households, if baskets vary a lot in size.
 3. **Real tier capture:** for every run, log the share of bag value that hit a PV2/PV3 price and the average gap. This decides whether the model works at all.
 

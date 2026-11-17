@@ -34,7 +34,7 @@ Method: the Offers lens in `.claude/skills/founder-board/lenses.md`, a summary o
 
 | # | solution | value | cost | keep? |
 | --- | --- | ---: | ---: | --- |
-| 1, 4 | **Till receipt in every bag + a 3-column slip: shelf price / what we paid / what you paid** | 5 | 1 | **core** |
+| 1, 4 | **A copy of the run's pooled till receipt in every bag, with the household's lines marked, plus a 3-column slip (shelf price / what we paid / what you paid).** One receipt per run, because the items are bought together (`ops.md`); a photocopy per bag costs pennies, inside the $0.15 packaging line. | 5 | 1 | **core** |
 | 2 | **First bag with no fee**: the saving is shown before any fee is asked | 4 | 1 | **bonus** |
 | 2 | **Fee $1.25** (panel indifference $1.01), not $2 | 4 | 2 | **core** |
 | 3 | **A named neighbour runs it; the pickup is at the village's own mini-market** | 5 | 1 | **core** |
@@ -64,10 +64,10 @@ Method: the Offers lens in `.claude/skills/founder-board/lenses.md`, a summary o
   2. *Doorstep drop for $1.50* kills "no car, who carries it home".
   3. *Weekly settlement from your 3rd bag* (founding households) kills "I lose my tab".
 - **The guarantee:** check your bag at pickup; anything wrong or damaged, hand it back and you don't pay for it. **Cost, modelled with the CFO's tool:**
-  - base write-offs: 0.5% of bag value, which leaves year 1 at $1,417;
-  - write-offs doubled to 1%: year 1 **$936**, break-even 10 bags a run;
-  - tripled: year 1 **$454**, break-even 13.
-  - Shelf-stable refused items mostly go back to stock or to the host shop, so the base case is the realistic one. The guarantee is affordable.
+  - base write-offs: 0.5% of bag value, which leaves year 1 at $769 (with the `ops.md` cost corrections);
+  - write-offs doubled to 1%: year 1 **$288**, break-even 15 bags a run;
+  - tripled: year 1 **−$194**, break-even 18.
+  - Shelf-stable refused items mostly go back to stock or to the host shop, so the base case is the realistic one. The guarantee is affordable only while write-offs stay near 0.5%, which is why there is no fresh produce. Track it weekly (`launch.md`).
 - **Urgency and scarcity, true ones only:** 40 founding places (the cash float really covers about 40 households), and the first-bag offer ends with the pilot month.
 - **The name of the offer:** *The Twice-Weekly Stock-Up, receipt in every bag.* The brand name is `/founder-brand`'s job.
 
@@ -99,3 +99,5 @@ The new offer is in `pitch.md` (the old one is `pitch-v1.md`; the v1 panel is ke
 **What moved:** the receipt + slip, the first bag with no fee and the village-shop pickup almost removed the trust and price objections. The two non-car buyers bought for exactly those reasons: "The first bag is free and the fresh things stay mine to choose, so I would try it for the cartons of oil, detergent and diapers" (P011); "The first bag has no fee and I can hand back anything wrong, so I'll try it once or twice" (P017). **What didn't move:** habit. Households that drive to Jbeil weekly still pass, and the offer should not chase them. **What's still asked for:** month-end payment from the first bag, and proof on the first slips that the saving beats the fee (P018: "she would stop after the first bag if the slips showed the saving was smaller than the fee").
 
 **Read it honestly:** 20 buyers, every segment thin, simulated and agreeable. 25% is an upper bound that sits exactly on the plan's default bar. The real test is the 4-week pilot in `launch.md`. One design rule follows from P018: **the first slip must show a saving larger than the fee**, or the household is lost. That depends on the Tawfeer tier gap, the same number the CFO flags.
+
+**Wording corrected after the re-test.** The 20 re-test buyers saw "every bag comes with the till receipt". Pooled buying produces one till receipt per run, not per bag (`ops.md`), so `pitch.md` now promises a copy of the run's receipt in every bag, with the household's lines marked, plus the slip. The trust mechanism is the same, but the change was not re-tested. Watch for it in the T2 sign-up conversations (`launch.md`).

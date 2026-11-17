@@ -4,13 +4,13 @@ Today is Tue 17 Nov 2026. **Launch day: Tue 12 Jan 2027**, the first public run,
 
 ## Step 1: test before you spend (17 Nov – 18 Dec)
 
-Nothing in this plan is expensive (`cfo.md`: $775 sunk plus a $1,100 float), but every number in it is an estimate. Three cheap real-world tests replace the three estimates that decide everything:
+Nothing in this plan is expensive (`cfo.md`: $775 sunk plus a $2,200 float that comes back), but every number in it is an estimate. Three cheap real-world tests replace the three estimates that decide everything:
 
 | test | how | success line (written before running it) | if it fails |
 | --- | --- | --- | --- |
 | **T1. The tier gap** (the CFO's "line to watch") | Shelf survey at Tawfeer MAX Jbeil: photograph the PV1/PV2/PV3 tags for the 40 staples villagers buy most. Ask staff for the thresholds and whether mixed cartons count. | **≥25% of a typical bag's value** can reach PV2/PV3 when 10 households pool, at an **average gap ≥6%** | Below that, the savings share can't pay for itself. Switch to a flat fee of $1.50–$2.00 aimed only at car-less households, or stop. |
 | **T2. Real sign-ups at a real price** | The founder and two host-shop owners personally ask car-less and hill-village households to become founding households: the v2 offer, a real date, $1.25 a bag. | **25 founding households** across the 4 hill villages and car-less Amchit by Fri 18 Dec. The panel's 25% buy rate implies ~25 yes from ~100 asked. | Fewer than 10 yes from 100 asked means the panel was far too optimistic. Go back to `/founder-offer` with the real objections. |
-| **T3. Two hand-run friends-and-family runs** | Fri 11 Dec and Tue 15 Dec, with 8–10 households, no software: WhatsApp Business app, a Google Sheet, printed slips. | Each run: **≥10 bags, zero wrong bags**, slip shows a saving larger than the fee on **≥70% of bags**, ≤45 min packing | Fix the routine (`ops.md` SOPs) and run a third time before any public launch. |
+| **T3. Two hand-run friends-and-family runs** | Fri 11 Dec and Tue 15 Dec, with 8–10 households, no software: WhatsApp Business app, a Google Sheet, printed slips. | Each run: **≥10 bags, zero wrong bags**, **average slip saving ≥ $1.25** (it at least covers the fee, so the household pays no more than shelf price; the CFO base assumes only $1.10), ≤45 min packing | Fix the routine (`ops.md` SOPs) and run a third time before any public launch. |
 
 **Go / no-go: Fri 18 Dec.** Go only if T1 and T3 pass and T2 reaches at least 15. If real buyers fall well short of the panel, trust the real buyers.
 
@@ -63,12 +63,12 @@ The **critical path** is T1, then the Tawfeer meeting, the host shops, the two T
 
 ## Step 4: the first 30 days
 
-**The weekly numbers** (CFO break-even: 9 bags a run; plan: 20):
+**The weekly numbers** (CFO break-even: 12 bags a run; plan: 20):
 
 | number | target by day 30 | change something if |
 | --- | --- | --- |
-| Bags per run | ≥12 | below 9 for 2 weeks in a row |
-| Bags where the slip shows a saving > the fee | ≥70% | below 50%: the tier gap is too thin, so revisit the fee model |
+| Bags per run | ≥15 | below 12 (break-even) for 2 weeks in a row |
+| Bags where the slip saving ≥ the fee | ≥50% | below 30%: the tier gap is too thin; move to a flat fee aimed only at car-less households |
 | Households ordering a 2nd bag within 14 days | ≥60% | below 40% |
 | Wrong or damaged lines per 100 lines | ≤2 | above 4 |
 | Share of bag value bought at PV2/PV3 | ≥25% | below 15% |

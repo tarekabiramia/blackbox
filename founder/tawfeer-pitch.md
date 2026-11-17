@@ -20,7 +20,7 @@ Don't ask "give me cheaper prices". MAX already sells carton prices to small bus
 | 1 | **Confirm the PV2/PV3 thresholds** for your top ~40 items, and whether a **mixed carton** counts toward PV3 | Half your revenue per bag is your share of this gap (`cfo.md`) |
 | 2 | **A business account with an invoice** (VAT number on the invoice) | Clean books; the agent-vs-reseller question (`research/market-lebanon.md` §6) |
 | 3 | **Pre-picking:** you send the order by 08:00 and collect at ~10:00 | Saves an hour or more of in-store picking per run |
-| 4 | **Weekly settlement** or a small credit line after a trial period | Shrinks the $1,100 cash float |
+| 4 | **Weekly settlement** or a small credit line after a trial period | Shrinks the $2,200 cash float (`cfo.md`) |
 | 5 | **Permission** to print "bought at Tawfeer MAX Jbeil" and its shelf prices on your slips | Your trust promise depends on it |
 | 6 | A **weekly price list** for those 40 items (a PDF or WhatsApp is fine) | Replaces any need to scrape |
 

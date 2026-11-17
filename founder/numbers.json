@@ -26,8 +26,8 @@
  ],
  "fixed_monthly": [
   {
-   "label": "Fuel, ~54 km loop at $7 a run x 9 runs",
-   "cost": 63
+   "label": "Fuel, ~60 km run day at $8 a run x 9 runs (ops.md estimate)",
+   "cost": 72
   },
   {
    "label": "Software, lean stack",
@@ -44,6 +44,14 @@
   {
    "label": "Printed flyers and village posters (est.)",
    "cost": 20
+  },
+  {
+   "label": "Vehicle wear and commercial-use insurance, placeholder until quoted (ops.md)",
+   "cost": 20
+  },
+  {
+   "label": "Accountant, ongoing bookkeeping, placeholder until quoted (est.)",
+   "cost": 25
   }
  ],
  "startup": [
@@ -60,8 +68,8 @@
    "cost": 175
   },
   {
-   "label": "Cash float to front one run of goods, ~20 bags x $55, recovered at pickup (est.)",
-   "cost": 1100
+   "label": "Cash float: two runs of ~20 bags x $55 fronted before weekly settlement, recovered (ops.md)",
+   "cost": 2200
   },
   {
    "label": "Business SIM and a basic phone (est.)",
