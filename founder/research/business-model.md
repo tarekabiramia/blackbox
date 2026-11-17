@@ -265,7 +265,7 @@ The CFO should replace these with real basket and savings data from the pilot.
 ### 2.3 What worked
 
 - **Next-day pickup with a fixed cut-off.**
-  - Meituan Select: order before 23:00, pick up the next day (later extended to 11:00) ([TechBuzz China, Apr 2023](https://techbuzzchina.substack.com/p/reports-about-the-death-of-community); [Feb 2024](https://techbuzzchina.substack.com/p/community-group-buying-the-us-military)).
+  - Meituan Select: order before 23:00, pick up the next day before 16:00 ([TechBuzz China, Apr 2023](https://techbuzzchina.substack.com/p/reports-about-the-death-of-community)). The pickup-window rules changed again in Aug 2023 ([TechBuzz China, Feb 2024](https://techbuzzchina.substack.com/p/community-group-buying-the-us-military)).
   - Taobao Maicai: order by 21:59, delivered by 12:00 the next day (same Feb 2024 source).
   - CityMall delivers "in a day rather than in minutes" (TechCrunch 2025).
   - This matches the founder's 2 p.m. cut-off.
