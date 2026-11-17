@@ -2,12 +2,12 @@
   "id": "P003",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "quality",
-  "reason": "I want to pick my own vegetables and meat, and I would not hand that to someone I don't know. I already get bread and labneh at the dekkene most days and do my big shop in Jbeil on Saturday, so this doesn't fill a gap for me.",
-  "objection": "Someone else chooses my tomatoes and my meat, and I have to wait until the evening and collect it myself, so it isn't any easier than the dekkene.",
-  "would_change_my_mind": "If I could send a photo of what I want, or they sent me a picture before buying, and I could refuse what I don't like at pickup.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
-  "price_expensive": 2,
-  "price_too_expensive": 3
+  "reason_code": "need",
+  "reason": "I pass a supermarket on my way home anyway and Tawfeer is only 5 or 6 minutes away, so I don't need someone to shop for me. And I want to choose my own vegetables and meat, which they don't do.",
+  "objection": "They only do packaged staples, so I'd still have to go to the shop for the fresh things. Then why pay $1.25 a bag for something I already pick up on my way home?",
+  "would_change_my_mind": "If they also picked fresh vegetables and meat the way I would, or if I could not get to the supermarket for a while, for example because I was ill or the car was in the garage.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.25,
+  "price_too_expensive": 2.5
 }

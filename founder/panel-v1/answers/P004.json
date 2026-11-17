@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I'm 65, I have my tab at the dekkene and I'm in the Jbeil supermarkets anyway when I go. Paying $2 a bag to have someone shop for me, then driving to a pickup point in the evening, saves me nothing.",
+  "objection": "I'm a few minutes from Tawfeer, why would I pay someone to shop for me? And I still have to go collect the bag myself, there is no delivery.",
+  "would_change_my_mind": "Delivery to my door with no fee, or proof that the carton prices come out clearly cheaper than what I pay at Tawfeer, enough to cover the fee.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

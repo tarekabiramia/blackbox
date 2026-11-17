@@ -1,0 +1,27 @@
+{
+  "business": "Village Basket v1, as pitched: daily runs, $2 fee, till price passed on",
+  "unit": "bag",
+  "price": 2.00,
+  "variable": [
+    {"label": "Bags, labels, receipt copy (est.)", "cost": 0.15},
+    {"label": "Payment fees and cash shortfalls, ~1% of a $40 bag (est.)", "cost": 0.40},
+    {"label": "Wrong or damaged items written off, ~1% of a $40 bag (est.)", "cost": 0.40}
+  ],
+  "fixed_monthly": [
+    {"label": "Half-day driver, $22 a run x 26 runs (est.)", "cost": 572},
+    {"label": "Fuel, ~54 km loop at $7 a run x 26 runs", "cost": 182},
+    {"label": "Software, lean stack at ~200 orders/month", "cost": 16},
+    {"label": "Business phone line and data (est.)", "cost": 10},
+    {"label": "Crates, cool boxes, wear (est.)", "cost": 20}
+  ],
+  "startup": [
+    {"label": "Registration and accountant setup (est.)", "cost": 300},
+    {"label": "Crates, cool boxes, label printer (est.)", "cost": 250},
+    {"label": "Flyers and launch (est.)", "cost": 100},
+    {"label": "Cash float to front one run of goods, recovered at pickup (est.)", "cost": 400}
+  ],
+  "days_per_month": 26,
+  "capacity_per_day": 20,
+  "plan_per_day": 9,
+  "ramp_per_day": [2, 3, 4, 5, 6, 7, 7, 8, 8, 9, 9, 9]
+}

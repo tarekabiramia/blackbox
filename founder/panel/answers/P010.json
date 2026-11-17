@@ -2,12 +2,12 @@
   "id": "P010",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "habit",
-  "reason": "I buy bread and labneh at the dekkene almost every day, and the owner is my neighbour and lets me pay at the end of the month. I am not going to plan a list before 2 and walk to a pickup point at 6 to save a little on a few items.",
-  "objection": "A $2 fee on a small daily bag eats whatever I would save, and I lose the tab and the fresh bread I pick up when I need it. I also don't know who these people are or who is holding my money and my list.",
-  "would_change_my_mind": "If they accepted payment at the end of the month like the dekkene, the fee was well under a dollar, and the pickup point was on my street.",
-  "price_too_cheap": 0.25,
-  "price_cheap": 0.5,
-  "price_expensive": 1.25,
-  "price_too_expensive": 2
+  "reason_code": "trust",
+  "reason": "I already have my tab at the dekkene and my son or the neighbour brings what I need. I do not know this person, and I am afraid of getting the wrong item or a bad one when I cannot go and check at the shop myself.",
+  "objection": "What if they bring the wrong item, the wrong size or something rotten, and I have already waited for it? Handing it back is fine, but then I have no groceries that day. And the dekkene lets me pay later, and this wants cash or Whish.",
+  "would_change_my_mind": "If my neighbour or someone from the family already used it and told me it was honest, and if I could pay later like at the dekkene, I would try one small bag.",
+  "price_too_cheap": 1,
+  "price_cheap": 2,
+  "price_expensive": 4,
+  "price_too_expensive": 6
 }

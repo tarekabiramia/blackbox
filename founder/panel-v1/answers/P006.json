@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I already stop at the supermarket on my way home from work, so this saves me nothing in time, and $2 a bag is real money when every dollar counts. I would not trust that the pooling saves more than the fee.",
+  "objection": "Another fee on top of my groceries. I pass Spinneys and Tawfeer MAX anyway, so I would be paying $2 just to have someone else do what I already do, and I have no proof the bulk prices come out lower than the fee.",
+  "would_change_my_mind": "Clear proof, with a real receipt, that my usual basket costs more than $2 less than when I buy it myself, or no fee at all on the first few orders.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

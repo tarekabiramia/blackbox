@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I buy my bread and a few things at the dekkene every morning, and the owner is my neighbour and lets me pay at the end of the month. I do not drive, so a pickup point and a 6 to 8 evening window do not fit how I shop, and I have no cash to spare for a fee.",
+  "objection": "I need things the same day, in small amounts, and sometimes on credit. Here I must send a list before 2, collect in the evening, pay cash or Whish on the spot, and add $2 every bag. For my small purchases that fee eats the saving.",
+  "would_change_my_mind": "Delivery to my door and a monthly tab like my neighbour gives me, with no fee on small bags.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1,
+  "price_too_expensive": 2
+}

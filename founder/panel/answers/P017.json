@@ -1,13 +1,13 @@
 {
   "id": "P017",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 2,
   "reason_code": "trust",
-  "reason": "I choose my own vegetables, fruit and meat, and I am not letting a stranger pick them for me. And I only have their word that what they paid at the till is what they charge me.",
-  "objection": "How do I know they really paid the cheap price and didn't add a markup? I would have to take their word, and the tomatoes and the meat would be chosen by someone else.",
-  "would_change_my_mind": "Seeing the actual supermarket receipt with my order, and being allowed to say 'no substitutions, and I will inspect the meat and produce at pickup and send back what I don't like'.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
-  "price_expensive": 2.5,
-  "price_too_expensive": 4
+  "reason": "The first bag has no fee and I can hand back anything wrong, so I'll try it once or twice for the packaged things and the cleaning stuff. I keep choosing my own vegetables and meat anyway, so it doesn't touch what I care about.",
+  "objection": "Another fee on top of my groceries. If the saving is only half of the bulk difference, it may not even cover the $1.25 a bag, and I don't know this neighbour yet.",
+  "would_change_my_mind": "Seeing on the slip, on my first bag, that I really saved more than the bag fee, and hearing from a neighbour in the village WhatsApp group that the receipts match.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 2.0,
+  "price_too_expensive": 3.5
 }

@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already buy my bread and labneh at the dekkene on my way, and I work in Jounieh until 6, so a 6 to 8 pm pickup is a hassle I don't need. I don't know these people and I'm not handing them my shopping list on trust.",
+  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato? I can't pick my own vegetables, and who do I argue with at pickup?",
+  "would_change_my_mind": "A clear promise that anything wrong or spoiled is replaced or refunded on the spot at pickup, and a neighbour I know vouching for it.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 3
+}

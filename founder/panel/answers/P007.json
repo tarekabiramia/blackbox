@@ -1,13 +1,13 @@
 {
   "id": "P007",
-  "buys": true,
-  "purchases_first_month": 3,
-  "reason_code": "need",
-  "reason": "We have no car right now, so getting to Spinneys or Tawfeer in Jbeil is a real problem for me. A bag waiting in the village for $2 on top of till prices is cheaper than paying someone to drive me, so I would try it for dry goods and packs.",
-  "objection": "I want to choose my own vegetables and meat, and I would be trusting a stranger to pick them. I also do not know how I can check that the price I pay is really what was on the till.",
-  "would_change_my_mind": "Seeing the till receipt with my bag, and a promise that I can refuse or get credit for bad vegetables or meat.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
-  "price_expensive": 3,
-  "price_too_expensive": 5
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already drive down to Tawfeer or Spinneys once a week and fill the boot, and the dekkene owner is my neighbour and lets me pay at the end of the month. Sharing half the saving and paying $1.25 a bag doesn't beat that for me.",
+  "objection": "I don't know how much I'd really save once the bag fee is taken off, and I'd be trusting someone I haven't met to choose my brands and substitutes. Cash up front or Whish is harder than my monthly tab at the dekkene.",
+  "would_change_my_mind": "If the slip showed I save a clear amount, like $5 or more a bag, and I could pay at the end of the month like at the dekkene.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 2,
+  "price_too_expensive": 3.5
 }

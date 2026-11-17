@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I choose my own vegetables, fruit and meat, and I am not letting a stranger pick them for me. I already drive to Jbeil on Saturday for the big shop, so I do not need this.",
+  "objection": "Someone else picking my tomatoes and meat, and I have to pay a $2 fee on top for it. I can't check anything until I'm at the pickup point and the money is already spent.",
+  "would_change_my_mind": "If I could look at the produce and meat at pickup and refuse anything I don't like without paying, I might try it for dry goods and cartons.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

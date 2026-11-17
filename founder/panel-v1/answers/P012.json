@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already grab bread and labneh at the dekkene every morning and sometimes put it on the tab. Ordering by 2 p.m. and driving to a pickup point between 6 and 8 for a bag is a hassle, and I don't know who these people are.",
+  "objection": "How do I know they really paid the cheap price at the till and didn't add a markup? I'd just be taking their word for it.",
+  "would_change_my_mind": "Seeing the till receipt photo for every order, plus a neighbour I know vouching for them and a first order with no fee.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 3
+}

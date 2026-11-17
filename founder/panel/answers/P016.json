@@ -2,12 +2,12 @@
   "id": "P016",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Spinneys and Tawfeer are five minutes from my house, so I can go myself and see the price on the shelf. I don't see why I'd hand my list to a stranger and take their word for the receipt.",
-  "objection": "How do I know they really paid the cheap price and didn't add a markup? All I get is a bag and a number, and I'd have to trust them on it.",
-  "would_change_my_mind": "They send me a photo of the till receipt with my items on the voice note, and the first two bags show I paid less than I would have in the shop even after the $2 fee.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
+  "reason_code": "habit",
+  "reason": "I drive down to Jbeil every Saturday and fill the boot, it is my outing and I pick everything myself. I don't need someone else to shop for me, and I would not trust a list over WhatsApp to come back the way I want it.",
+  "objection": "Sending a list the night before on WhatsApp is a hassle, and I would still be doing my Saturday shop anyway, so I would be paying a bag fee for something I already do.",
+  "would_change_my_mind": "If it were free for the first few months and I could just say 'same as last time' with no deadline, and I saw a neighbour I know had used it and was happy.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
   "price_expensive": 2.5,
   "price_too_expensive": 4
 }

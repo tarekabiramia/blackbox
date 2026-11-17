@@ -2,12 +2,12 @@
   "id": "P013",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "I'm five minutes from Spinneys and Tawfeer and I already fill the boot once a week, and for the small stuff I have my tab at the dekkene. I don't need someone else to do my shopping and then drive to a pickup point to get it.",
-  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato? I pick my own at the shelf, and I'd still pay $2 on top plus the trip to collect.",
-  "would_change_my_mind": "If I could see the till receipt and send back anything wrong or bad for free, and the carton prices really came out clearly under what I pay myself, I might try one bag.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
-  "price_expensive": 2.5,
-  "price_too_expensive": 4
+  "reason_code": "habit",
+  "reason": "I buy bread and labneh at the dekkene almost every day, sometimes on the tab, and planning a list the night before is not how I shop. The savings on a few staples would be small for me, and a $1.25 fee on every bag eats part of it.",
+  "objection": "What if they bring the wrong item, the wrong size, or something near its date? I would be standing at the mini-market checking a bag with other people watching, and I do not know this neighbour.",
+  "would_change_my_mind": "A first bag from someone I know in the village that turns out right, with the savings shown clearly, and no fee unless the bag saves me more than it costs.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
 }

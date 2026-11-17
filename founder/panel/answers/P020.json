@@ -2,12 +2,12 @@
   "id": "P020",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "I already buy my bread and labneh at the dekkene on my way, and I work in Jounieh until 6, so a 6 to 8 pm pickup is a hassle I don't need. I don't know these people and I'm not handing them my shopping list on trust.",
-  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato? I can't pick my own vegetables, and who do I argue with at pickup?",
-  "would_change_my_mind": "A clear promise that anything wrong or spoiled is replaced or refunded on the spot at pickup, and a neighbour I know vouching for it.",
-  "price_too_cheap": 0.5,
-  "price_cheap": 1,
+  "reason_code": "habit",
+  "reason": "I already drive down to Spinneys or Tawfeer once a week and fill the boot, and I pick my own fresh things there anyway. Paying a fee to save a few cents on staples, then still collecting at their hour, isn't worth changing that.",
+  "objection": "I'd still have to go and collect it, at their hour, not mine, and I'm in Jbeil every week regardless. The saving is only half of a small bulk discount, so a bag fee eats most of it.",
+  "would_change_my_mind": "Free delivery to my door with the saving shown clearly on a first trial order, so I can see I'm really ahead after the fee.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.75,
   "price_expensive": 2,
   "price_too_expensive": 3
 }

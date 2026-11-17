@@ -2,12 +2,12 @@
   "id": "P019",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "I'm five minutes from Tawfeer and I grab bread and labneh at the dekkene most days, some on tab. Paying $2 a bag to have someone shop for me makes no sense when I already pass these places.",
-  "objection": "I top up daily for small things, so a $2 fee on every bag is a lot, and the dekkene gives me a tab. Why would I send a list by 2 p.m. and collect at 6 to 8 when I can just stop on my way home?",
-  "would_change_my_mind": "If the total on my bag was clearly and visibly cheaper than the shelf price at Tawfeer, by more than the fee, on a big monthly stock-up, I might try it once.",
+  "reason_code": "habit",
+  "reason": "I already buy bread at the village bakery every morning and the dekkene owner is my neighbour and lets me pay at the end of the month. I'd be giving up credit and a walk-down shop for a bag fee and a half-saving I can't be sure of.",
+  "objection": "The dekkene lets me pay at month end and I know the owner. Here it's cash or Whish, and $1.25 a bag plus half the saving only; I'd need to see that I really come out ahead of the Tawfeer offers I already follow myself.",
+  "would_change_my_mind": "Pay at the end of the month from the first bag, and a first slip or two showing I clearly save more than the bag fee on a normal list.",
   "price_too_cheap": 0.25,
-  "price_cheap": 0.5,
+  "price_cheap": 0.75,
   "price_expensive": 1.5,
   "price_too_expensive": 2.5
 }

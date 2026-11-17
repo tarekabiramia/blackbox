@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": true,
+  "purchases_first_month": 3,
+  "reason_code": "need",
+  "reason": "We have no car right now, so getting to Spinneys or Tawfeer in Jbeil is a real problem for me. A bag waiting in the village for $2 on top of till prices is cheaper than paying someone to drive me, so I would try it for dry goods and packs.",
+  "objection": "I want to choose my own vegetables and meat, and I would be trusting a stranger to pick them. I also do not know how I can check that the price I pay is really what was on the till.",
+  "would_change_my_mind": "Seeing the till receipt with my bag, and a promise that I can refuse or get credit for bad vegetables or meat.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 5
+}

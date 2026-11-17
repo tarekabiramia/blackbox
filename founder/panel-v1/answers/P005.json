@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I drive down to Jbeil every Saturday and fill the boot, so I already get the carton prices myself and the trip costs me nothing extra. A daily service doesn't fit how I shop, and I'd rather see what I'm buying on the shelf.",
+  "objection": "Sending a list before 2 p.m. every time is a hassle, and I'd be trusting strangers to pick my items and tell me honestly what they paid at the till. $2 a bag on a tight budget adds up for something I already do once a week.",
+  "would_change_my_mind": "If I could see the actual till receipts and it saved me clearly more than the fee on my weekly list, and I could send one list for the week instead of every day, I might try it once when the car is off the road.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

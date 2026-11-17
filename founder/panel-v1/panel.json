@@ -1,0 +1,105 @@
+{
+ "n": 50,
+ "seed": 2026,
+ "customer": {
+  "business": "Village Basket (working name): daily pooled grocery run with a village pickup point, Amchit and the Jbeil hill villages",
+  "target": "Households in Amchit and the hill villages above it in Jbeil district (Bejjeh, Ghalboun, Aabaydat, Kfoun) who do their main grocery shop at the Jbeil supermarkets or top up at the village mini-market, in a cash-tight economy where median household income is about $550 a month and food takes about a third of spending",
+  "where": "Amchit (Aamchit) and the hill villages of Jbeil district, Mount Lebanon",
+  "age": [
+   24,
+   76
+  ],
+  "segments": [
+   {
+    "name": "Amchit-centre household, 5 to 6 minutes by car from Spinneys, Tawfeer MAX and Le Charcutier in Jbeil",
+    "share": 0.35,
+    "income": [
+     5000,
+     24000
+    ]
+   },
+   {
+    "name": "Hill-village household (Bejjeh, Ghalboun, Aabaydat or Kfoun), 20 to 25 minutes by car from the Jbeil supermarkets",
+    "share": 0.35,
+    "income": [
+     4000,
+     18000
+    ]
+   },
+   {
+    "name": "Older person or couple who rarely or never drives",
+    "share": 0.15,
+    "income": [
+     2500,
+     9000
+    ]
+   },
+   {
+    "name": "Comfortable family on two salaries or remittances from abroad",
+    "share": 0.15,
+    "income": [
+     18000,
+     45000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Weekly big shop",
+    "share": 0.22,
+    "how": "Drives down to Spinneys or Tawfeer in Jbeil once a week and fills the boot."
+   },
+   {
+    "name": "Daily mini-market top-up",
+    "share": 0.18,
+    "how": "Buys bread, labneh and a few items at the village dekkene most days, pays a little more for convenience, sometimes on a running tab."
+   },
+   {
+    "name": "Deal hunter",
+    "share": 0.15,
+    "how": "Follows Tawfeer and supermarket offers on Instagram and WhatsApp, compares prices, stocks up when there is a deal."
+   },
+   {
+    "name": "Commuter",
+    "share": 0.15,
+    "how": "Works in Jbeil, Jounieh or Beirut and stops at a supermarket on the way home."
+   },
+   {
+    "name": "Picky about fresh food",
+    "share": 0.12,
+    "how": "Insists on choosing their own vegetables, fruit and meat; does not trust anyone else to pick."
+   },
+   {
+    "name": "Relies on family or neighbours",
+    "share": 0.1,
+    "how": "Does not drive; a son, daughter or neighbour brings the shopping."
+   },
+   {
+    "name": "Delivery app user",
+    "share": 0.08,
+    "how": "Sometimes orders from Toters or a supermarket's own app."
+   }
+  ],
+  "objections": [
+   "I'm a few minutes from Tawfeer, why would I pay someone to shop for me?",
+   "What if they bring the wrong item, the wrong size or a rotten tomato?",
+   "I want to choose my own vegetables and meat",
+   "Another fee on top of my groceries? Every dollar counts right now",
+   "How do I know they really paid the cheap price and didn't add a markup?",
+   "I'd still have to go and collect it, at their hour, not mine",
+   "The dekkene owner is my neighbour and lets me pay at the end of the month",
+   "Sending a list before 2 p.m. every time is a hassle"
+  ],
+  "habits": [
+   "you drive down to Jbeil on Saturday mornings for the big shop",
+   "you buy bread and man'oushe at the village bakery every morning",
+   "you read the village and parish WhatsApp groups every day",
+   "you send voice notes rather than typing",
+   "your children work abroad and send money every month",
+   "you work until 6 p.m. in Jounieh",
+   "there is no car in the household right now",
+   "you keep a running tab at the village dekkene"
+  ]
+ },
+ "pitch": "Village Basket: a new daily grocery service for Amchit and the villages above it (Bejjeh, Ghalboun, Aabaydat, Kfoun).\nSend your shopping list on WhatsApp, as text or a voice note, before 2 p.m.\nWe pool everyone's orders and buy them together at Tawfeer MAX Jbeil and the other Jbeil supermarkets, comparing prices and using bulk and carton prices that one household usually can't get.\nCollect your bag the same evening between 6 and 8 p.m. at a pickup point in your village. There is no home delivery.\nYou pay what we paid at the till for your items, plus a $2 service fee per bag, in cash or by Whish at pickup."
+}

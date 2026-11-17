@@ -2,12 +2,12 @@
   "id": "P008",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "habit",
-  "reason": "I buy my bread and a few things at the dekkene every morning, and the owner is my neighbour and lets me pay at the end of the month. I do not drive, so a pickup point and a 6 to 8 evening window do not fit how I shop, and I have no cash to spare for a fee.",
-  "objection": "I need things the same day, in small amounts, and sometimes on credit. Here I must send a list before 2, collect in the evening, pay cash or Whish on the spot, and add $2 every bag. For my small purchases that fee eats the saving.",
-  "would_change_my_mind": "Delivery to my door and a monthly tab like my neighbour gives me, with no fee on small bags.",
+  "reason_code": "convenience",
+  "reason": "I already drive to Jbeil every Saturday for the big shop and top up at the dekkene daily, so this doesn't fix a problem I have. I'd still have to go and collect it, at their hour, not mine.",
+  "objection": "I'd pay $1.25 a bag to get half of some saving I can't see yet, and I still have to go pick it up at the mini-market. For a few staples I'd rather just grab them on my Saturday run or on my tab at the dekkene.",
+  "would_change_my_mind": "Free delivery to my door with no extra fee, and a clear proof on the first bag that I saved more than I paid in fees.",
   "price_too_cheap": 0.25,
-  "price_cheap": 0.5,
-  "price_expensive": 1,
-  "price_too_expensive": 2
+  "price_cheap": 0.75,
+  "price_expensive": 2.0,
+  "price_too_expensive": 3.0
 }

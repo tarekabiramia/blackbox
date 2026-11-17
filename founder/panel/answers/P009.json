@@ -2,12 +2,12 @@
   "id": "P009",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "habit",
-  "reason": "I already do one big shop a week in Jbeil and fill the boot, so a daily service doesn't fit how I buy. I'd still have to go and collect it at their hour, not mine, so I'd save little.",
-  "objection": "I'd still have to go and collect it, at their hour, not mine, and I only have their word that I'm paying the till price.",
-  "would_change_my_mind": "Home delivery to my door, or a pickup point on my own street with a wider window, plus receipts shown for every bag.",
+  "reason_code": "convenience",
+  "reason": "I top up at the dekkene most days, bread and labneh when I need them, sometimes on my tab. Twice a week at their hour is not how I shop, and I'd still have to go and collect it.",
+  "objection": "I'd still have to go and collect it, at their hour, not mine. I buy a little every day, not two big runs a week, and the village dekkene already gives me the tab.",
+  "would_change_my_mind": "Free delivery to my door on the same day, with no tab-style charge, and daily or on-demand ordering instead of only Tuesday and Friday.",
   "price_too_cheap": 0.5,
   "price_cheap": 1,
-  "price_expensive": 3,
-  "price_too_expensive": 5
+  "price_expensive": 2,
+  "price_too_expensive": 3
 }

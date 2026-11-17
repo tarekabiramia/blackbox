@@ -1,0 +1,235 @@
+{
+ "business": "Village Basket (working name): daily pooled grocery run with a village pickup point, Amchit and the Jbeil hill villages",
+ "seed": 2026,
+ "dealt": 50,
+ "answered": 50,
+ "skipped": [],
+ "buys": 3,
+ "passes": 47,
+ "buy_rate": 0.06,
+ "by_segment": [
+  [
+   "Amchit-centre household, 5 to 6 minutes by car from Spinneys, Tawfeer MAX and Le Charcutier in Jbeil",
+   18,
+   0.1111111111111111
+  ],
+  [
+   "Hill-village household (Bejjeh, Ghalboun, Aabaydat or Kfoun), 20 to 25 minutes by car from the Jbeil supermarkets",
+   18,
+   0.05555555555555555
+  ],
+  [
+   "Older person or couple who rarely or never drives",
+   7,
+   0.0
+  ],
+  [
+   "Comfortable family on two salaries or remittances from abroad",
+   7,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Commuter",
+   7,
+   0.14285714285714285
+  ],
+  [
+   "Deal hunter",
+   8,
+   0.125
+  ],
+  [
+   "Weekly big shop",
+   11,
+   0.09090909090909091
+  ],
+  [
+   "Daily mini-market top-up",
+   9,
+   0.0
+  ],
+  [
+   "Delivery app user",
+   4,
+   0.0
+  ],
+  [
+   "Picky about fresh food",
+   6,
+   0.0
+  ],
+  [
+   "Relies on family or neighbours",
+   5,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$9,000 to $16,000",
+   18,
+   0.1111111111111111
+  ],
+  [
+   "$16,000 and up",
+   18,
+   0.05555555555555555
+  ],
+  [
+   "under $9,000",
+   14,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "habit",
+   12,
+   [
+    "I already go down to Jbeil once a week and fill the boot, and I see the prices with my own eyes. Sending a list before 2 p.m. every time is a hassle, and I would be trusting strangers with my cash and my groceries.",
+    "I already drive down to Jbeil every Saturday for the big shop, and the dekkene owner is my neighbour and lets me pay at the end of the month. I don't need someone else doing my shopping."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ],
+  [
+   "trust",
+   9,
+   [
+    "I already grab bread and labneh at the dekkene every morning and sometimes put it on the tab. Ordering by 2 p.m. and driving to a pickup point between 6 and 8 for a bag is a hassle, and I don't know who these people are.",
+    "Spinneys and Tawfeer are five minutes from my house, so I can go myself and see the price on the shelf. I don't see why I'd hand my list to a stranger and take their word for the receipt."
+   ],
+   [
+    "P012",
+    "P016"
+   ]
+  ],
+  [
+   "convenience",
+   8,
+   [
+    "I already run a tab at the dekkene and it costs me nothing extra. A list before 2 p.m. and a trip to a pickup point between 6 and 8 for a $2 fee on top, that is more hassle than what I do now.",
+    "I already follow the Tawfeer and supermarket offers myself and stock up when there is a deal, and Jbeil is only 5 or 6 minutes by car. If I still have to go and collect the bag at their hour, in a pickup point, I save almost nothing and pay $2 for it."
+   ],
+   [
+    "P011",
+    "P015"
+   ]
+  ],
+  [
+   "quality",
+   7,
+   [
+    "I want to pick my own vegetables and meat, and I would not hand that to someone I don't know. I already get bread and labneh at the dekkene most days and do my big shop in Jbeil on Saturday, so this doesn't fill a gap for me.",
+    "I choose my own vegetables, fruit and meat, and I am not letting a stranger pick them for me. I already drive to Jbeil on Saturday for the big shop, so I do not need this."
+   ],
+   [
+    "P003",
+    "P014"
+   ]
+  ],
+  [
+   "need",
+   7,
+   [
+    "I'm 65, I have my tab at the dekkene and I'm in the Jbeil supermarkets anyway when I go. Paying $2 a bag to have someone shop for me, then driving to a pickup point in the evening, saves me nothing.",
+    "I'm five minutes from Spinneys and Tawfeer and I already fill the boot once a week, and for the small stuff I have my tab at the dekkene. I don't need someone else to do my shopping and then drive to a pickup point to get it."
+   ],
+   [
+    "P004",
+    "P013"
+   ]
+  ],
+  [
+   "price",
+   4,
+   [
+    "I already stop at the supermarket on my way home from work, so this saves me nothing in time, and $2 a bag is real money when every dollar counts. I would not trust that the pooling saves more than the fee.",
+    "I already pass through Jbeil on my commute and do the big shop there on Saturday, so I can compare prices myself. Another $2 a bag on top of groceries is money I don't have to spare."
+   ],
+   [
+    "P006",
+    "P024"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "need",
+   2,
+   [
+    "We have no car right now, so getting to Spinneys or Tawfeer in Jbeil is a real problem for me. A bag waiting in the village for $2 on top of till prices is cheaper than paying someone to drive me, so I would try it for dry goods and packs.",
+    "We have no car right now, so getting to Jbeil for a shop is a real hassle, and a $2 fee for someone to buy it and have it in my village is less than a taxi or asking a favour. I'd try it for stock-up lists, not every day."
+   ],
+   [
+    "P007",
+    "P023"
+   ]
+  ],
+  [
+   "convenience",
+   1,
+   [
+    "With no car in the house, getting a bag of shopping up from Jbeil is a hassle, so a pickup point in my own village that I can walk to is useful. I would try it for the heavy things like oil, rice and cartons, not every day."
+   ],
+   [
+    "P036"
+   ]
+  ]
+ ],
+ "flip": [
+  "A neighbour I know and trust who has used it for a month and shows me the receipt next to the bag, and the fee dropped to $1 or free on a big weekly bag.",
+  "If they let me pay at the end of the month, showed me the receipt, and I saw a few neighbours using it and saving real money on cartons.",
+  "If I could send a photo of what I want, or they sent me a picture before buying, and I could refuse what I don't like at pickup.",
+  "Delivery to my door with no fee, or proof that the carton prices come out clearly cheaper than what I pay at Tawfeer, enough to cover the fee.",
+  "If I could see the actual till receipts and it saved me clearly more than the fee on my weekly list, and I could send one list for the week instead of every day, I might try it once when the car is off the road.",
+  "Clear proof, with a real receipt, that my usual basket costs more than $2 less than when I buy it myself, or no fee at all on the first few orders.",
+  "Delivery to my door and a monthly tab like my neighbour gives me, with no fee on small bags.",
+  "Home delivery to my door, or a pickup point on my own street with a wider window, plus receipts shown for every bag.",
+  "If they accepted payment at the end of the month like the dekkene, the fee was well under a dollar, and the pickup point was on my street.",
+  "If it were credit like the dekkene (pay at month end) or the fee were waived, and I could see the savings on my usual items first.",
+  "Seeing the till receipt photo for every order, plus a neighbour I know vouching for them and a first order with no fee.",
+  "If I could see the till receipt and send back anything wrong or bad for free, and the carton prices really came out clearly under what I pay myself, I might try one bag.",
+  "If I could look at the produce and meat at pickup and refuse anything I don't like without paying, I might try it for dry goods and cartons.",
+  "Home delivery, or a pickup point on my street with a longer window, plus proof on the receipt that I pay less than the shelf price on the deals I am already chasing.",
+  "They send me a photo of the till receipt with my items on the voice note, and the first two bags show I paid less than I would have in the shop even after the $2 fee.",
+  "Seeing the actual supermarket receipt with my order, and being allowed to say 'no substitutions, and I will inspect the meat and produce at pickup and send back what I don't like'.",
+  "Being able to send back or refuse anything I don't like at pickup with no charge, or a way to choose fresh produce and meat myself, for example by photo before they buy.",
+  "If the total on my bag was clearly and visibly cheaper than the shelf price at Tawfeer, by more than the fee, on a big monthly stock-up, I might try it once.",
+  "A clear promise that anything wrong or spoiled is replaced or refunded on the spot at pickup, and a neighbour I know vouching for it.",
+  "A neighbour I trust running it, and a promise that anything wrong or spoiled is replaced or refunded at pickup, without argument.",
+  "A photo of the till receipt with every bag, with the item prices I can check, and a neighbour I know who has used it for a month and says the totals are honest.",
+  "A receipt for every item and proof the bulk and carton prices save me clearly more than the $2 fee, or the fee waived for the first few bags.",
+  "Seeing a few real receipts where the bag cost me clearly less than the same items at the offers I already follow, with a pickup point on my way home from Jounieh.",
+  "If they brought the bag to my door and the $2 was clearly less than what my family spends on petrol and time going down to Jbeil.",
+  "Delivery to my door, or a pickup point within walking distance that is open late enough for whoever brings it, with no fee on small orders.",
+  "Home delivery, or a pickup time that suits me, plus some proof that the till prices really are lower than what I pay myself.",
+  "Home delivery, or a pickup point on my own street. Or a receipt photo with every bag, and the fee dropped when I order a big stock-up.",
+  "Home delivery to my door, from someone my neighbours already know and trust.",
+  "Home delivery, and a promise that anything wrong or spoiled is replaced or refunded on the spot when I collect it.",
+  "Proof, on my own list over a few weeks, that the total comes out clearly cheaper than my weekly shop even after the fee, with a way to send back anything that is bad.",
+  "A neighbour I know running it, plus a promise in writing that they replace or refund anything wrong or bad at pickup, and I could check the bag and receipt before paying.",
+  "If I could see the actual till prices and carton deals before ordering, and the pickup point was a short walk from my house, and the fee was waived or about a dollar.",
+  "A photo of the till receipt in the bag with every order, and a first bag with no fee so I can check it against Spinneys prices myself.",
+  "If it came to my door or my son could collect it easily, and I could pay at the end of the month like at the dekkene.",
+  "Delivery to my door, free, and someone I know in the village taking my order by phone or in person.",
+  "A way to send back or not pay for anything I don't like when I open the bag, and a fee of about $1 or less.",
+  "A later order cutoff, such as 5 p.m., and a pickup point I can walk to, plus proof that the baskets come out clearly cheaper than my usual shop.",
+  "Being able to reject items I don't like at pickup without paying for them, plus a first bag where the till receipt shows prices clearly lower than what I pay now.",
+  "Seeing the actual supermarket receipt with every bag, from someone in my village I know and trust, and a free first bag to try.",
+  "Delivery to my door, or a pickup point right next to my house, with a proven saving on my weekly basket that is clearly more than the fee.",
+  "If I could pick my own fresh produce and meat at pickup before paying, or if the fee were waived for me and the shopper was someone I know from the village.",
+  "If I could send them only for dry goods, cartons and bulk items, and still pick my own fresh produce and meat, I might try it for those.",
+  "No fee, or a fee only when the carton and bulk savings on my list clearly beat what I pay at the till, shown on the receipt.",
+  "Home delivery, or a pickup window that runs later, plus a receipt photo for every order so I can see the real prices.",
+  "If they showed me, with a receipt, that my basket came out clearly cheaper than my own shop, and I could send the list later in the day.",
+  "If they showed me, with receipts, that my usual items come out clearly cheaper than the supermarket shelf even after the $2, and let me pay at the end of the month like the dekkene does.",
+  "Home delivery or a pickup point a few steps from my door with a flexible hour, plus seeing the till receipt for each order so I know I'm paying the real price."
+ ],
+ "purchases_first_month_per_buyer": 3.0,
+ "price_answers": 50
+}

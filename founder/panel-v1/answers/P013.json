@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I'm five minutes from Spinneys and Tawfeer and I already fill the boot once a week, and for the small stuff I have my tab at the dekkene. I don't need someone else to do my shopping and then drive to a pickup point to get it.",
+  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato? I pick my own at the shelf, and I'd still pay $2 on top plus the trip to collect.",
+  "would_change_my_mind": "If I could see the till receipt and send back anything wrong or bad for free, and the carton prices really came out clearly under what I pay myself, I might try one bag.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}
