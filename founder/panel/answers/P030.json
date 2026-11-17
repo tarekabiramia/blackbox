@@ -1,0 +1,13 @@
+{
+  "id": "P030",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "My son or a neighbour brings the shopping and I am only minutes from Tawfeer. I have no reason to pay strangers to shop for me, and I would still have to walk to a pickup point in the evening.",
+  "objection": "Why would I pay someone to shop for me when my family already brings it and the supermarket is close? I do not know these people, and no home delivery means I still have to go out.",
+  "would_change_my_mind": "Home delivery to my door, from someone my neighbours already know and trust.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 3
+}

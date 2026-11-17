@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I already run a tab at the dekkene and it costs me nothing extra. A list before 2 p.m. and a trip to a pickup point between 6 and 8 for a $2 fee on top, that is more hassle than what I do now.",
+  "objection": "Sending a list before 2 p.m. every time is a hassle, and I still have to go collect it myself. On $6,000 a year, $2 a bag adds up, and I do not know the savings will cover it.",
+  "would_change_my_mind": "If it were credit like the dekkene (pay at month end) or the fee were waived, and I could see the savings on my usual items first.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 3
+}

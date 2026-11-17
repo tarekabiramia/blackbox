@@ -1,0 +1,13 @@
+{
+  "id": "P023",
+  "buys": true,
+  "purchases_first_month": 3,
+  "reason_code": "need",
+  "reason": "We have no car right now, so getting to Jbeil for a shop is a real hassle, and a $2 fee for someone to buy it and have it in my village is less than a taxi or asking a favour. I'd try it for stock-up lists, not every day.",
+  "objection": "How do I know they really paid the cheap price and didn't add a markup? Nothing here says I'd see the receipt, and I only trust a deal if I can check it against Tawfeer's own offers.",
+  "would_change_my_mind": "A photo of the till receipt with every bag, so I can check each item price against the Tawfeer offers I already follow.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 5
+}

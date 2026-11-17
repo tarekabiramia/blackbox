@@ -1,0 +1,13 @@
+{
+  "id": "P022",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I already fill the boot once a week at Spinneys or Tawfeer and I see the prices myself. I would not hand my list to strangers and hope they really paid what they say, and the pickup window and the $2 on top do not make up for that.",
+  "objection": "How do I know they really paid the cheap price at the till and did not add a markup? I only have their word, and a bag I have not checked is easy to pad.",
+  "would_change_my_mind": "A photo of the till receipt with every bag, with the item prices I can check, and a neighbour I know who has used it for a month and says the totals are honest.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P024",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I already pass through Jbeil on my commute and do the big shop there on Saturday, so I can compare prices myself. Another $2 a bag on top of groceries is money I don't have to spare.",
+  "objection": "A fee on top of my groceries, when I'm already in Jbeil anyway and every dollar counts. I'd also have to trust that they really buy at the lowest price and don't pad the till total.",
+  "would_change_my_mind": "A receipt for every item and proof the bulk and carton prices save me clearly more than the $2 fee, or the fee waived for the first few bags.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 0.5,
+  "price_expensive": 1.5,
+  "price_too_expensive": 2.5
+}

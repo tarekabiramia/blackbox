@@ -1,0 +1,13 @@
+{
+  "id": "P029",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already drive down to Jbeil on Saturdays and do my big shop myself, following the Tawfeer and supermarket offers. I would still have to collect the bag at their hour, so I would not save much.",
+  "objection": "I would still have to go and collect it, at their hour, not mine, and I pay a fee on top for it. I also can't check what they paid at the till, and I would rather choose the deals myself.",
+  "would_change_my_mind": "Home delivery, or a pickup point on my own street. Or a receipt photo with every bag, and the fee dropped when I order a big stock-up.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1,
+  "price_expensive": 2.5,
+  "price_too_expensive": 4
+}

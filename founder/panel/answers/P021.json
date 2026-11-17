@@ -1,0 +1,13 @@
+{
+  "id": "P021",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I buy bread and labneh at the dekkene almost every day, sometimes on the tab, and Jbeil is only 5 or 6 minutes by car anyway. Ordering the day before and picking up in the evening does not fit how I shop, and I do not know these people.",
+  "objection": "What if they bring the wrong item, the wrong size or a rotten tomato? Nobody checks it for me, and I pay whatever they paid at the till, with no one to complain to.",
+  "would_change_my_mind": "A neighbour I trust running it, and a promise that anything wrong or spoiled is replaced or refunded at pickup, without argument.",
+  "price_too_cheap": 0.25,
+  "price_cheap": 1,
+  "price_expensive": 2,
+  "price_too_expensive": 4
+}
